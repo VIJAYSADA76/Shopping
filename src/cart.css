@@ -1,0 +1,96 @@
+/* Container styling for the entire cart */
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading for the cart */
+  .cart-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling each cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Product name and price layout */
+  .cart-item-info {
+    flex-grow: 1;
+  }
+  
+  .cart-item-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .cart-item-price {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Styling for the quantity controls and remove button */
+  .cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item-button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cart-item-button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .cart-item-quantity {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .cart-item-remove {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .cart-item-remove:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Empty cart message styling */
+  .empty-cart {
+    text-align: center;
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
