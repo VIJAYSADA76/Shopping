@@ -19,6 +19,8 @@ function Home() {
       </style>
       <h1 style={{ textAlign: 'center', color: 'white' }}>Welcome to Our Store</h1>
       <h2 style={{ textAlign: 'center', color: 'white' }}>Happy Shopping</h2>
+      <h3 style={{ textAlign: 'center', color: 'white' }}>Happy Shopping</h3>
+      
       <p style={{ textAlign: 'center', color: 'white' }}>Explore our products and add them to your cart!</p>
     </>
   );
