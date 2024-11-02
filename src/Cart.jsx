@@ -54,7 +54,7 @@ function Cart() {
       <style>
         {`
           body {
-            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230713/pngtree-3d-render-of-an-abandoned-shopping-cart-image_3861045.jpg');
+            background-image: url('https://img.freepik.com/premium-photo/toy-shopping-cart-with-boxes-blue-background_339191-217.jpg');
             background-size: cover;
             background-position: center;
             min-height: 100vh;
